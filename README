@@ -1,0 +1,19 @@
+Steps to clone and Use
+
+$> git clone http://github.com/shreekavi/erlang-app-structure.git
+
+Rename the folder erlang-app-structure to a folder name of your choice
+
+Remove references to the this repo and create references to your own repo.
+
+$> git remote rm origin
+
+Check the configuration using
+
+$> git config -l
+
+Add a remote branch to this repo.
+
+$> git remote add origin git@github.com/account/your-repo.git
+
+
